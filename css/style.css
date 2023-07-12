@@ -1,0 +1,5186 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom right, rgba(138, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../images/tires.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.title h1 {
+    margin-left: 50px;
+    color: white;
+    font-size: 55px;
+}
+
+.links {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 28px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 45px;
+    color: white;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 60%;
+    height: 350px;
+    background-image: linear-gradient(to bottom right, rgba(128,128,128, 0.2), rgba(0, 0, 0, 0.1)), url("../images/lit.avif");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.banner p {
+    color: white;
+    font-size: 20px;
+}
+
+.banner button {
+    background-color: #8a0000;
+    border: none;
+    width: 20%;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.description {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.descImage {
+    width: 35%;
+    height: 300px;
+    
+}
+
+.descImage img {
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    border: solid 1px #8a0000;
+}
+.descContent {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.descContent p {
+    font-size: 40px;
+    color: #8a0000;
+}
+
+.services {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.servContent {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.repair{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.repair img {
+    width: 80%;
+    height: 210px;
+}
+
+.repair a{
+    color: #8a0000;
+    text-decoration: none;
+    font-size: 35px;
+    text-emphasis-style: bold;
+    margin-top: 12px;
+}
+
+.repair p {
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.repairTwo{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.repairTwo img {
+    width: 80%;
+    height: 210px;
+}
+
+.repairTwo a{
+    color: #8a0000;
+    text-decoration: none;
+    font-size: 35px;
+    text-emphasis-style: bold;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.repairTwo p {
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.repairThree{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repairThree img {
+    width: 80%;
+    height: 210px;
+}
+
+.repairThree a{
+    color: #8a0000;
+    text-decoration: none;
+    font-size: 35px;
+    text-emphasis-style: bold;
+    margin-top: 12px;
+}
+
+.repairThree p {
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: #8a0000;
+    bottom: 0;
+}
+
+footer p {
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+
+}
+
+.servicesCont {
+    width: 100%;
+    min-height: 84vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-content {
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-body{
+    width: 85%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.services-info{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.servImg {
+    width: 45%;
+    height: 50%;
+    float: left;
+    padding-right: 20px;
+   
+}
+
+.servImg img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.servText {
+    width: 100%;
+    height: 100%;
+    margin-top: -30px;
+}
+
+.servText p {
+    font-size: 28px;
+    text-align: left;
+    width: 100%;
+}
+
+.servText h2 {
+    font-size: 40px;
+    text-align: left;
+    width: 100%;
+    color: #8a0000;
+}
+
+.servSecond {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.servSecond h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #8a0000;
+}
+
+.servSecond li {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    text-align: left;
+}
+
+.nav-link {
+    color: gray;
+  }
+  
+  .nav-link-active{
+    color: black;
+  }
+
+.sidenav h2 {
+    color: #8a0000;
+    font-size: 40px;
+}
+
+.batteriesCont {
+    width: 100%;
+    min-height: 83vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.batteries-content {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.batteries-body{
+    width: 85%;
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.batteries-info{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.batteriesMain {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.batteriesImg {
+    width: 45%;
+    height: 50%;
+    float: right;
+    padding-left: 30px;
+   
+}
+
+.batteriesImg img {
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.batteriesText {
+    width: 100%;
+    height: 100%;
+    margin-top: -30px;
+}
+
+.batteriesText p {
+    font-size: 32px;
+    text-align: left;
+    width: 100%;
+}
+
+.batteriesText h2 {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    color: #8a0000;
+}
+
+.batteriesSecond {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.batteriesSecond h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #8a0000;
+
+}
+
+.batteriesSecond ul {
+    padding-bottom: 20px;
+    margin-top: -5px;
+}
+
+.batteriesSecond li {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.brakesCont {
+    width: 100%;
+    min-height: 73vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brakes-content {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brakes-body{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.brakes-info{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brakesMain {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.brakesMain h1 {
+    font-size: 40px;
+    text-align: left;
+    color: #8a0000;
+}
+
+.brakesImg {
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.brakesImg img {
+    width: 90%;
+    height: 100%;
+    
+}
+
+.brakesText {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brakesSecond p {
+    font-size: 30px;
+    text-align: left;
+    width: 90%;
+    margin-top: -10px;
+}
+
+.brakesSecond {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.brakesSecond h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #8a0000;
+}
+
+.brakesText li {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.engineCont {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.engine-content {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.engine-body{
+    width: 85%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.engine-info{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.engineMain {
+    min-height: 60%;
+    width: 100%;
+}
+
+.engineImg {
+    width: 25%;
+    height: 50%;
+    padding-right: 20px;
+    float: left;
+    margin-top: 28px;
+}
+
+.engineImg img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.engineText {
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+}
+
+.engineText h2 {
+    font-size: 45px;
+    text-align: left;
+    color: #8a0000;
+}
+
+.engineText p {
+    font-size: 30px;
+    text-align: left;
+    width: 100%;
+}
+
+.engineSecond {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.engineSecond h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #8a0000;
+}
+
+.engineSecond li {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.fleetCont {
+    width: 100%;
+    min-height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fleet-content {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fleet-body{
+    width: 85%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.fleet-info{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fleet-info h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #8a0000;
+    margin-top: -5px;
+    padding-bottom: 35px;
+}
+
+
+
+.fleetImg {
+    width: 45%;
+    height: 50%;
+    float: left;
+    padding-right: 20px;
+   
+}
+
+.fleetImg img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.fleetText {
+    width: 100%;
+    height: 100%;
+    margin-top: -30px;
+}
+
+.fleetText p {
+    font-size: 40px;
+    text-align: left;
+    width: 90%;
+}
+
+.oilCont {
+    width: 100%;
+    min-height: 73vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oil-content {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oil-body{
+    width: 75%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.oil-info{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.oilMain {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.oilMain h1 {
+    font-size: 45px;
+    text-align: center;
+    color: #8a0000;
+}
+
+.oilImg {
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.oilImg img {
+    width: 90%;
+    height: 100%;
+    
+}
+
+.oilText {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oilText h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #8a0000;
+}
+
+.oilSecond p {
+    font-size: 30px;
+    text-align: left;
+    width: 90%;
+    margin-top: -10px;
+}
+
+.oilSecond {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.oilSecond h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #8a0000;
+}
+
+.oilText li {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+
+.transCont {
+    width: 100%;
+    min-height: 73vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trans-content {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trans-body{
+    width: 75%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.trans-info{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.transMain {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.transMain h1 {
+    font-size: 45px;
+    text-align: center;
+    color: #8a0000;
+}
+
+.transImg {
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.transImg img {
+    width: 90%;
+    height: 100%;
+    
+}
+
+.transText {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.transText h1 {
+    font-size: 35px;
+    text-align: left;
+    color: #8a0000;
+    margin-left: 20px;
+}
+
+.transSecond p {
+    font-size: 30px;
+    text-align: left;
+    width: 90%;
+    margin-top: -10px;
+}
+
+.transSecond {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.transSecond h2 {
+    font-size: 45px;
+    text-align: center;
+    color: #8a0000;
+}
+
+.transText li {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.tire {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tire-content {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tire-banner {
+    width: 60%;
+    height: 250px;
+    background-image: linear-gradient(to bottom left, rgba(138, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.banner-content {
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-content h1 {
+    color: #8a0000;
+    font-size: 45px;
+}
+
+.banner-content p {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+.tire-desc {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tire-desc h1 {
+    color: #8a0000;
+    font-size: 40px;
+}
+
+.descCont {
+    min-height: 60%;
+    width: 60%;
+}
+
+.tireImg {
+    width: 45%;
+    height: 50%;
+    float: left;
+    padding-right: 20px;
+   
+}
+
+.tireImg img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.tireImgTwo {
+    width: 45%;
+    height: 50%;
+    float: right;
+    padding-left: 20px;
+   
+}
+
+.tireImgTwo img {
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.tireText {
+    width: 100%;
+    height: 100%;
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+
+.tireText p {
+    font-size: 28px;
+    text-align: left;
+    width: 100%;
+}
+
+.tireInfo {
+    border-top: solid 1px grey;
+    min-height: 60%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tireInfo h1 {
+    font-size: 40px;
+    color: #8a0000;
+    margin-top: 50px;
+}
+
+.tireInfo p {
+    font-size: 28px;
+}
+
+.tireServices {
+    min-height: 60%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tireRow {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tireRow h2 {
+    font-size: 35px;
+    color: #8a0000;
+}
+
+.tireRow li {
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+
+.about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-desc {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.about-desc h1 {
+    color: #8a0000;
+    font-size: 45px;
+    width: 60%;
+    text-align: center;
+}
+
+.aboutCont {
+    min-height: 60%;
+    width: 60%;
+}
+
+.aboutImg {
+    width: 25%;
+    height: 50%;
+    float: left;
+    padding-right: 20px;
+   
+}
+
+.aboutImg img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.aboutImgTwo {
+    width: 45%;
+    height: 50%;
+    float: left;
+    padding-right: 20px;
+   
+}
+
+.aboutImgTwo img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.aboutText {
+    width: 100%;
+    height: 100%;
+    margin-top: -30px;
+    padding-bottom: 20px;
+}
+
+.aboutText p {
+    font-size: 30px;
+    text-align: left;
+    width: 100%;
+}
+
+.aboutInfo {
+    border-top: solid 1px grey;
+    min-height: 60%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutInfo h1 {
+    font-size: 30px;
+    color: #8a0000;
+    margin-top: 50px;
+}
+
+.aboutInfo p {
+    font-size: 20px;
+}
+
+
+
+.contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-content {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-desc {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact-desc h1 {
+    color: #8a0000;
+    font-size: 45px;
+    width: 60%;
+    text-align: center;
+}
+
+.contactCont {
+    min-height: 60%;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.contactImg {
+    width: 45%;
+    height: 50%;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 40px;
+   
+}
+
+.contactImg img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.contactImgTwo {
+    width: 45%;
+    height: 50%;
+    float: right;
+    padding-right: 20px;
+    padding-top: 40px;
+   
+}
+
+.contactImgTwo img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.contactText {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.contactText h1 {
+    font-size: 40px;
+    color: #8a0000;
+    width: 100%;
+    text-align: left;
+}
+
+.contactText p {
+    font-size: 28px;
+    text-align: left;
+    width: 100%;
+}
+
+.contactInfo {
+    border-top: solid 1px grey;
+    min-height: 60%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactInfo h1 {
+    font-size: 25px;
+    color: #8a0000;
+    margin-top: 50px;
+}
+
+.contactInfo p {
+    font-size: 20px;
+}
+
+.mobile-nav {
+    display: none; /* Hide the navigation menu by default on desktop */
+    z-index: 9999;
+  }
+  
+  .menu-icon, .close-icon {
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    z-index: 10000;
+  }
+  
+  .menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 10001;
+  }
+  
+  .menu li {
+    padding: 10px;
+    background-color: #8a0000;
+  }
+  
+  .menu li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .close-icon {
+    display: none;
+  }
+
+  .sidenav-mobile {
+    display: none;
+  }
+
+  
+
+/* Phone */
+@media (max-width: 480px) {
+    nav {
+        height: 100px;
+        width: 100%;
+    }
+    .links {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .title h1 {
+        font-size: 22px;
+    }
+
+    .mobile-nav {
+        display: block; /* Display the navigation menu on mobile */
+      }
+    
+      .menu-icon {
+        display: block; /* Show the hamburger icon on mobile */
+      }
+    
+      .menu {
+        display: none; /* Hide the menu by default on mobile */
+      }
+
+      #toggle {
+        display: none;
+      }
+    
+      /* Show the menu when the toggle is checked (hamburger icon is clicked) */
+      #toggle:checked ~ .menu {
+        display: block;
+        z-index: 100;
+      }
+
+       /* Hide the hamburger icon and show the close icon in the active state */
+        #toggle:checked ~ .menu-icon {
+            display: none;
+        }
+
+        #toggle:checked ~ .close-icon {
+            display: inline-block;
+        }
+
+        .home {
+            min-height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .home-content {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .banner {
+            width: 90%;
+            height: 100px;
+            background-image: linear-gradient(to bottom right, rgba(128,128,128, 0.2), rgba(0, 0, 0, 0.1)), url("../images/lit.avif");
+            background-size: cover;
+            background-position: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            text-align: left;
+            padding-bottom: 30px;
+        }
+        
+        .banner h1 {
+            color: white;
+            font-size: 15px;
+        }
+        
+        .banner p {
+            color: white;
+            font-size: 12px;
+        }
+        
+        .banner button {
+            background-color: #8a0000;
+            border: none;
+            width: 25%;
+            border-radius: 15px;
+            padding: 10px;
+            color: white;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .description {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        
+        .descImage {
+            width: 80%;
+            height: 150px;
+            margin-right: 60px;
+        }
+        
+        .descImage img {
+            width: 100%;
+            height: 100%;
+            border: solid 1px #8a0000;
+        }
+        .descContent {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .descContent p {
+            font-size: 16px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .services {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        
+        .servContent {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .repair{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .repair img {
+            width: 100%;
+            height: 190px;
+        }
+        
+        .repair a{
+            color: #8a0000;
+            text-decoration: none;
+            font-size: 20px;
+            text-emphasis-style: bold;
+            margin-top: 12px;
+        }
+        
+        .repair p {
+            width: 80%;
+            font-size: 15px;
+            text-align: center;
+        }
+        
+        .repairTwo{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        .repairTwo img {
+            width: 100%;
+            height: 190px;
+        }
+        
+        .repairTwo a{
+            color: #8a0000;
+            text-decoration: none;
+            font-size: 20px;
+            text-emphasis-style: bold;
+            margin-top: 12px;
+        }
+        
+        .repairTwo p {
+            width: 80%;
+            font-size: 15px;
+            text-align: center;
+        }
+        
+        .repairThree{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        .repairThree img {
+            width: 100%;
+            height: 190px;
+        }
+        
+        .repairThree a{
+            color: #8a0000;
+            text-decoration: none;
+            font-size: 20px;
+            text-emphasis-style: bold;
+            margin-top: 12px;
+        }
+        
+        .repairThree p {
+            width: 80%;
+            font-size: 15px;
+            text-align: center;
+        }
+        
+        footer {
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 25px;
+            background-color: #8a0000;
+            bottom: 0;
+        }
+
+        footer h3 {
+            font-size: 15px;
+        }
+
+        footer p {
+            font-size: 12px;
+        }
+
+        .servicesCont {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .services-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .services-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        
+        
+        .services-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .servImg {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        
+        .servImg img {
+            width: 100%;
+            height: 100%;
+            align-items: center;
+        }
+        
+        .servText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .servText p {
+            font-size: 14px;
+            text-align: center;
+            width: 80%;
+        }
+        
+        .servText h2 {
+            font-size: 22px;
+            text-align: center;
+            width: 100%;
+            color: #8a0000;
+        }
+        
+        .servSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .servSecond h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+        
+        .servSecond li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .sidenav{
+            display: none;
+        }
+
+        .sidenav-mobile {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+        }
+        
+        .sidenav-mobile a {
+            text-decoration: none;
+            font-size: 12px;
+            padding: 10px;
+            text-align: left;
+            width: 100%;
+        }
+        
+        .nav-link {
+            color: gray;
+          }
+          
+          .nav-link-active{
+            color: black;
+          }
+        
+        .sidenav-mobile h2 {
+            display: none;
+        }
+
+
+        .batteriesCont {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .batteries-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .batteries-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        
+        
+        .batteries-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .batteriesImg {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        
+        .batteriesImg img {
+            width: 100%;
+            height: 100%;
+            align-items: center;
+        }
+        
+        .batteriesText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .batteriesText p {
+            font-size: 14px;
+            text-align: center;
+            width: 80%;
+        }
+        
+        .batteriesText h2 {
+            font-size: 22px;
+            text-align: center;
+            width: 100%;
+            color: #8a0000;
+        }
+        
+        .batteriesSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .batteriesSecond h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+        
+        .batteriesSecond li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .brakesCont {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .brakes-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .brakes-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .brakes-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .brakesSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .brakesSecond h2 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .brakesSecond p {
+            font-size: 16px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .brakesMain {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .brakesText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .brakesText h1 {
+            font-size: 20px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .brakesText li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .brakesImg {
+            width: 90%;
+            height: 50%;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .brakesImg img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .engineCont{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .engine-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .engine-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .engine-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .engineMain {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .engineImg {
+            width: 70%;
+            height: 50%;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .engineImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .engineText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .engineText h2 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .engineText p {
+            font-size: 18px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .engineSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .engineSecond h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .engineSecond li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .transCont{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .trans-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .trans-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .trans-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .transMain {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .transImg {
+            width: 70%;
+            height: 50%;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .transImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .transText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .transText h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .transText p {
+            font-size: 18px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .transSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .transSecond h2 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+            width: 90%;
+        }
+
+        .transSecond li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .transSecond p {
+            font-size: 18px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .fleetCont{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fleet-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fleet-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fleet-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .fleetMain {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .fleetImg {
+            width: 70%;
+            height: 50%;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .fleetImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .fleetText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .fleet-info h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .fleetText p {
+            font-size: 18px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .oilCont{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .oil-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .oil-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .oil-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .oilMain {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .oilImg {
+            width: 70%;
+            height: 50%;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .oilImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .oilText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .oilText h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .oilText p {
+            font-size: 18px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .oilSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .oilSecond h2 {
+            font-size: 20px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .oilText li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .oilSecond p {
+            font-size: 18px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .tire{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tire-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tire-banner{
+            width: 90%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-content{
+            height: 100%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-content h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .banner-content p {
+            font-size: 18px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .tire-desc{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .tire-desc h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .descCont {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .tireImg {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .tireImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .tireText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .tireText p {
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .tireImgTwo {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .tireImgTwo img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .tireInfo {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .tireInfo h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .tireInfo p {
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .tireServices {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .tireRow {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .tireRow h2 {
+            font-size: 22px;
+            text-align: left;
+            color: #8a0000;
+            margin-left: 20px;
+        }
+
+        .tireRow li {
+            font-size: 18px;
+            text-align: left;
+            width: 100%;
+            margin-left: 215x;
+        }
+
+        .about {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-desc {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-desc h1 {
+            font-size: 25px;
+            text-align: center;
+            color: #8a0000;
+            width: 90%;
+        }
+
+        .aboutCont {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .aboutText {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .aboutText p {
+            font-size: 16px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .aboutImgTwo {
+            width: 80%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+            margin-bottom: 30px;
+        }
+
+        .contact {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-desc {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-desc h1 {
+            font-size: 23px;
+            text-align: center;
+            color: #8a0000;
+            width: 90%;
+        }
+
+        .contactCont {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .contactImg{
+            width: 80%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+            margin-bottom: 30px;
+        }
+
+        .contactText {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contactText p {
+            font-size: 16px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .contactImgTwo {
+            width: 80%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+            margin-bottom: 30px;
+        }
+
+}
+
+/* Tablets */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait){
+
+   
+
+    nav {
+        height: 100px;
+        width: 100%;
+    }
+    .links {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .title h1 {
+        font-size: 25px;
+    }
+
+    .mobile-nav {
+        display: block; /* Display the navigation menu on mobile */
+      }
+    
+      .menu-icon {
+        display: block; /* Show the hamburger icon on mobile */
+      }
+    
+      .menu {
+        display: none; /* Hide the menu by default on mobile */
+      }
+
+      #toggle {
+        display: none;
+      }
+    
+      /* Show the menu when the toggle is checked (hamburger icon is clicked) */
+      #toggle:checked ~ .menu {
+        display: block;
+        z-index: 100;
+      }
+
+       /* Hide the hamburger icon and show the close icon in the active state */
+        #toggle:checked ~ .menu-icon {
+            display: none;
+        }
+
+        #toggle:checked ~ .close-icon {
+            display: inline-block;
+        }
+
+        .home {
+            min-height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .home-content {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .banner {
+            width: 90%;
+            height: 150px;
+            background-image: linear-gradient(to bottom right, rgba(128,128,128, 0.2), rgba(0, 0, 0, 0.1)), url("../images/lit.avif");
+            background-size: cover;
+            background-position: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            text-align: left;
+            padding-bottom: 30px;
+        }
+        
+        .banner h1 {
+            color: white;
+            font-size: 20px;
+        }
+        
+        .banner p {
+            color: white;
+            font-size: 16px;
+        }
+        
+        .banner button {
+            background-color: #8a0000;
+            border: none;
+            width: 25%;
+            border-radius: 15px;
+            padding: 10px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 25px;
+        }
+
+        .description {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        
+        .descImage {
+            width: 60%;
+            height: 200px;
+            margin-right: 60px;
+        }
+        
+        .descImage img {
+            width: 100%;
+            height: 100%;
+            border: solid 1px #8a0000;
+        }
+        .descContent {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .descContent p {
+            font-size: 24px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .services {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        
+        .servContent {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .repair{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-right: 20px;
+        }
+        
+        .repair img {
+            width: 100%;
+            height: 190px;
+        }
+        
+        .repair a{
+            color: #8a0000;
+            text-decoration: none;
+            font-size: 22px;
+            text-emphasis-style: bold;
+            margin-top: 12px;
+        }
+        
+        .repair p {
+            width: 80%;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .repairTwo{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-right: 20px;
+        }
+        
+        .repairTwo img {
+            width: 100%;
+            height: 190px;
+        }
+        
+        .repairTwo a{
+            color: #8a0000;
+            text-decoration: none;
+            font-size: 22px;
+            text-emphasis-style: bold;
+            text-align: center;
+        }
+        
+        .repairTwo p {
+            width: 80%;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .repairThree{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -65px;
+        }
+        
+        .repairThree img {
+            width: 100%;
+            height: 190px;
+        }
+        
+        .repairThree a{
+            color: #8a0000;
+            text-decoration: none;
+            font-size: 22px;
+            text-emphasis-style: bold;
+            margin-top: 12px;
+        }
+        
+        .repairThree p {
+            width: 80%;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        footer {
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 25px;
+            background-color: #8a0000;
+            bottom: 0;
+        }
+
+        footer h3 {
+            font-size: 15px;
+        }
+
+        footer p {
+            font-size: 12px;
+        }
+
+        .servicesCont {
+            width: 100%;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .services-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .services-body{
+            width: 85%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        
+        
+        .services-info{
+            height: 100%;
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .servImg {
+            width: 60%;
+            height: 70%;
+            float: left;
+            padding-right: 20px;
+           
+        }
+        
+        .servImg img {
+            width: 100%;
+            height: 100%;
+            float: left;
+        }
+        
+        .servText {
+            width: 100%;
+            height: 100%;
+            margin-top: -30px;
+        }
+        
+        .servText p {
+            font-size: 28px;
+            text-align: left;
+            width: 100%;
+        }
+        
+        .servText h2 {
+            font-size: 40px;
+            text-align: center;
+            width: 100%;
+            color: #8a0000;
+        }
+        
+        .servSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .servSecond h1 {
+            font-size: 28px;
+            text-align: center;
+            color: #8a0000;
+        }
+        
+        .servSecond li {
+            margin-bottom: 15px;
+            font-size: 26px;
+        }
+        
+        .sidenav {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            align-items: center;
+        }
+        
+        .sidenav a {
+            text-decoration: none;
+            font-size: 20px;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        .nav-link {
+            color: gray;
+          }
+          
+          .nav-link-active{
+            color: black;
+          }
+        
+        .sidenav h2 {
+            color: #8a0000;
+        }
+
+        .batteriesCont {
+            width: 100%;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .batteries-content {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .batteries-body{
+            width: 85%;
+            height: 100%;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        
+        .batteries-info{
+            height: 100%;
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .batteriesMain {
+            height: 50%;
+            width: 100%;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .batteriesImg {
+            width: 100%;
+            height: 80%;
+            float: right;
+            padding-left: 30px;
+           
+        }
+        
+        .batteriesImg img {
+            width: 100%;
+            height: 100%;
+            float: right;
+        }
+        
+        .batteriesText {
+            width: 100%;
+            height: 100%;
+            margin-top: -30px;
+        }
+        
+        .batteriesText p {
+            font-size: 26px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .batteriesText h2 {
+            font-size: 35px;
+            text-align: center;
+            width: 100%;
+            color: #8a0000;
+            margin-top: 50px;
+        }
+        
+        .batteriesSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .batteriesSecond h1 {
+            font-size: 28px;
+            text-align: center;
+            color: #8a0000;
+        
+        }
+        
+        .batteriesSecond ul {
+            padding-bottom: 20px;
+            margin-top: -5px;
+        }
+        
+        .batteriesSecond li {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .brakesCont {
+            width: 100%;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .brakes-content {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .brakes-body{
+            width: 85%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+        }
+        
+        
+        .brakes-info{
+            height: 100%;
+            width: 55%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 50px;
+        }
+        
+        .brakesMain {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .brakesMain h1 {
+            font-size: 26px;
+            text-align: center;
+            color: #8a0000;
+        }
+        
+        .brakesImg {
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            margin-top: 20px;
+            
+        }
+        
+        .brakesImg img {
+            width: 90%;
+            height: 100%;
+            
+        }
+        
+        .brakesText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .brakesSecond p {
+            font-size: 21px;
+            text-align: center;
+            width: 90%;
+            margin-top: -10px;
+        }
+        
+        .brakesSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .brakesSecond h2 {
+            font-size: 35px;
+            text-align: center;
+            color: #8a0000;
+        }
+        
+        .brakesText li {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .engine-info {
+            margin-left: 30px;
+        }
+
+        .transCont {
+            width: 100%;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .trans-content {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .trans-body{
+            width: 85%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        
+        .trans-info{
+            height: 100%;
+            width: 65%;
+            margin-left: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .transMain {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .transMain h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+        
+        .transImg {
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin-top: 20px;
+            
+        }
+        
+        .transImg img {
+            width: 100%;
+            height: 100%;
+            
+        }
+        
+        .transText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .transText h1 {
+            font-size: 24px;
+            text-align: center;
+            color: #8a0000;
+            margin-left: 20px;
+        }
+        
+        .transSecond p {
+            font-size: 23px;
+            text-align: center;
+            width: 100%;
+            margin-top: -10px;
+        }
+        
+        .transSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .transSecond h2 {
+            font-size: 28px;
+            text-align: center;
+            color: #8a0000;
+        }
+        
+        .transText li {
+            margin-bottom: 10px;
+            font-size: 26px;
+        }
+
+        .fleet-info {
+            margin-left: 30px;
+        }
+
+        .oilCont {
+            width: 100%;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .oil-content {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .oil-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        
+        .oil-info{
+            height: 100%;
+            width: 70%;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .oilMain {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .oilMain h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+        
+        .oilImg {
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            margin-top: 20px;
+            margin-right: 50px;
+            
+        }
+        
+        .oilImg img {
+            width: 90%;
+            height: 100%;
+            
+        }
+        
+        .oilText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-right: 50px;
+        }
+        
+        .oilText h1 {
+            font-size: 24px;
+            text-align: center;
+            color: #8a0000;
+        }
+        
+        .oilSecond p {
+            font-size: 23px;
+            text-align: center;
+            width: 90%;
+            margin-top: -10px;
+        }
+        
+        .oilSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .oilSecond h2 {
+            font-size: 28px;
+            text-align: center;
+            width: 90%;
+            color: #8a0000;
+        }
+        
+        .oilText li {
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+        .tire {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .tire-content {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .tire-banner {
+            width: 90%;
+            height: 250px;
+            background-image: linear-gradient(to bottom left, rgba(138, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../images/banner.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            padding-bottom: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .banner-content {
+            width: 80%;
+            height: 100%;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .banner-content h1 {
+            color: white;
+            font-size: 45px;
+        }
+        
+        .banner-content p {
+            color: white;
+            font-size: 18px;
+        }
+        
+        .tire-desc {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        
+        .tire-desc h1 {
+            color: #8a0000;
+            font-size: 40px;
+        }
+        
+        .descCont {
+            min-height: 60%;
+            width: 80%;
+        }
+        
+        .tireImg {
+            width: 45%;
+            height: 50%;
+            float: left;
+            padding-right: 20px;
+           
+        }
+        
+        .tireImg img {
+            width: 100%;
+            height: 100%;
+            float: left;
+        }
+        
+        .tireImgTwo {
+            width: 45%;
+            height: 50%;
+            float: right;
+            padding-left: 20px;
+           
+        }
+        
+        .tireImgTwo img {
+            width: 100%;
+            height: 100%;
+            float: right;
+        }
+        
+        .tireText {
+            width: 100%;
+            height: 100%;
+            margin-top: -30px;
+            padding-bottom: 20px;
+        }
+        
+        .tireText p {
+            font-size: 28px;
+            text-align: left;
+            width: 100%;
+        }
+        
+        .tireInfo {
+            border-top: solid 1px grey;
+            min-height: 60%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .tireInfo h1 {
+            font-size: 25px;
+            color: #8a0000;
+            margin-top: 50px;
+        }
+        
+        .tireInfo p {
+            font-size: 20px;
+        }
+        
+        .tireServices {
+            min-height: 60%;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .tireRow {
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .tireRow h2 {
+            font-size: 25px;
+            color: #8a0000;
+        }
+        
+        .tireRow li {
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+
+        .about {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .about-content {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .about-desc {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        
+        .about-desc h1 {
+            color: #8a0000;
+            font-size: 40px;
+            width: 80%;
+            text-align: center;
+        }
+        
+        .aboutCont {
+            min-height: 60%;
+            width: 70%;
+        }
+        
+        .aboutImg {
+            width: 25%;
+            height: 50%;
+            float: left;
+            padding-right: 20px;
+           
+        }
+        
+        .aboutImg img {
+            width: 100%;
+            height: 100%;
+            float: left;
+        }
+        
+        .aboutImgTwo {
+            width: 45%;
+            height: 50%;
+            float: left;
+            padding-right: 20px;
+           
+        }
+        
+        .aboutImgTwo img {
+            width: 100%;
+            height: 100%;
+            float: left;
+        }
+        
+        .aboutText {
+            width: 100%;
+            height: 100%;
+            margin-top: -30px;
+            padding-bottom: 20px;
+        }
+        
+        .aboutText p {
+            font-size: 28px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .aboutInfo {
+            border-top: solid 1px grey;
+            min-height: 60%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .aboutInfo h1 {
+            font-size: 25px;
+            color: #8a0000;
+            margin-top: 50px;
+        }
+        
+        .aboutInfo p {
+            font-size: 20px;
+        }
+
+        .contact {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .contact-content {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .contact-desc {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        
+        .contact-desc h1 {
+            color: #8a0000;
+            font-size: 40px;
+            width: 80%;
+            text-align: center;
+        }
+        
+        .contactCont {
+            min-height: 60%;
+            width: 90%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .contactImg {
+            width: 100%;
+            height: 60%;
+            float: left;
+            padding-right: 20px;
+            padding-bottom: 40px;
+           
+        }
+        
+        .contactImg img {
+            width: 100%;
+            height: 100%;
+            float: left;
+        }
+        
+        .contactImgTwo {
+            width: 100%;
+            height: 60%;
+            float: right;
+            padding-right: 20px;
+            padding-top: 40px;
+           
+        }
+        
+        .contactImgTwo img {
+            width: 100%;
+            height: 100%;
+            float: left;
+        }
+        
+        .contactText {
+            width: 100%;
+            height: 100%;
+            padding-bottom: 40px;
+        }
+        
+        .contactText h1 {
+            font-size: 38px;
+            color: #8a0000;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .contactText p {
+            font-size: 24px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .contactInfo {
+            border-top: solid 1px grey;
+            min-height: 60%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .contactInfo h1 {
+            font-size: 25px;
+            color: #8a0000;
+            margin-top: 50px;
+        }
+        
+        .contactInfo p {
+            font-size: 20px;
+        }
+        
+
+        
+}
+
+/*iphone landscape */
+@media only screen 
+and (min-width : 321px) and (max-width: 900px) and (orientation: landscape) {
+    nav {
+        height: 100px;
+        width: 100%;
+    }
+    .links {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .title h1 {
+        font-size: 22px;
+    }
+
+    .mobile-nav {
+        display: block; /* Display the navigation menu on mobile */
+      }
+    
+      .menu-icon {
+        display: block; /* Show the hamburger icon on mobile */
+      }
+    
+      .menu {
+        display: none; /* Hide the menu by default on mobile */
+      }
+
+      #toggle {
+        display: none;
+      }
+    
+      /* Show the menu when the toggle is checked (hamburger icon is clicked) */
+      #toggle:checked ~ .menu {
+        display: block;
+        z-index: 100;
+      }
+
+       /* Hide the hamburger icon and show the close icon in the active state */
+        #toggle:checked ~ .menu-icon {
+            display: none;
+        }
+
+        #toggle:checked ~ .close-icon {
+            display: inline-block;
+        }
+
+        .home {
+            min-height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .home-content {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .banner {
+            width: 90%;
+            height: 150px;
+            background-image: linear-gradient(to bottom right, rgba(128,128,128, 0.2), rgba(0, 0, 0, 0.1)), url("../images/lit.avif");
+            background-size: cover;
+            background-position: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            text-align: left;
+            padding-bottom: 30px;
+        }
+        
+        .banner h1 {
+            color: white;
+            font-size: 20px;
+        }
+        
+        .banner p {
+            color: white;
+            font-size: 16px;
+        }
+        
+        .banner button {
+            background-color: #8a0000;
+            border: none;
+            width: 25%;
+            border-radius: 15px;
+            padding: 10px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 25px;
+        }
+
+        .description {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        
+        .descImage {
+            width: 60%;
+            height: 200px;
+            margin-right: 60px;
+        }
+        
+        .descImage img {
+            width: 100%;
+            height: 100%;
+            border: solid 1px #8a0000;
+        }
+        .descContent {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .descContent p {
+            font-size: 24px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .services {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -30px;
+        }
+        
+        .servContent {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .repair{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 70px;
+        }
+        
+        .repair img {
+            width: 100%;
+            height: 190px;
+        }
+        
+        .repair a{
+            color: #8a0000;
+            text-decoration: none;
+            font-size: 22px;
+            text-emphasis-style: bold;
+            margin-top: 12px;
+            text-align: center;
+        }
+        
+        .repair p {
+            width: 80%;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .repairTwo{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .repairTwo img {
+            width: 100%;
+            height: 190px;
+        }
+        
+        .repairTwo a{
+            color: #8a0000;
+            text-decoration: none;
+            font-size: 22px;
+            text-emphasis-style: bold;
+            text-align: center;
+        }
+        
+        .repairTwo p {
+            width: 80%;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .repairThree{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -55px;
+        }
+        
+        .repairThree img {
+            width: 100%;
+            height: 190px;
+        }
+        
+        .repairThree a{
+            color: #8a0000;
+            text-decoration: none;
+            font-size: 22px;
+            text-emphasis-style: bold;
+            margin-top: 12px;
+            text-align: center;
+        }
+        
+        .repairThree p {
+            width: 80%;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        footer {
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 25px;
+            background-color: #8a0000;
+            bottom: 0;
+        }
+
+        footer h3 {
+            font-size: 15px;
+        }
+
+        footer p {
+            font-size: 12px;
+        }
+
+        .servicesCont {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .services-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .services-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        
+        
+        .services-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .servImg {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        
+        .servImg img {
+            width: 100%;
+            height: 100%;
+            align-items: center;
+        }
+        
+        .servText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .servText p {
+            font-size: 20px;
+            text-align: center;
+            width: 90%;
+        }
+        
+        .servText h2 {
+            font-size: 28px;
+            text-align: center;
+            width: 100%;
+            color: #8a0000;
+        }
+        
+        .servSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .servSecond h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+        
+        .servSecond li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .sidenav{
+            display: none;
+        }
+
+        .sidenav-mobile {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .sidenav-mobile a {
+            text-decoration: none;
+            font-size: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .nav-link {
+            color: gray;
+          }
+          
+          .nav-link-active{
+            color: black;
+          }
+        
+        .sidenav-mobile h2 {
+            display: none;
+        }
+
+
+        .batteriesCont {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .batteries-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .batteries-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        
+        
+        .batteries-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .batteriesImg {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        
+        .batteriesImg img {
+            width: 100%;
+            height: 100%;
+            align-items: center;
+        }
+        
+        .batteriesText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .batteriesText p {
+            font-size: 20px;
+            text-align: center;
+            width: 90%;
+        }
+        
+        .batteriesText h2 {
+            font-size: 28px;
+            text-align: center;
+            width: 100%;
+            color: #8a0000;
+        }
+        
+        .batteriesSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .batteriesSecond h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+        
+        .batteriesSecond li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .brakesCont {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .brakes-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .brakes-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .brakes-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .brakesSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .brakesSecond h2 {
+            font-size: 28px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .brakesSecond p {
+            font-size: 20px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .brakesMain {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .brakesText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .brakesText h1 {
+            font-size: 20px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .brakesText li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .brakesImg {
+            width: 90%;
+            height: 50%;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .brakesImg img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .engineCont{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .engine-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .engine-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .engine-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .engineMain {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .engineImg {
+            width: 70%;
+            height: 50%;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .engineImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .engineText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .engineText h2 {
+            font-size: 28px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .engineText p {
+            font-size: 20px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .engineSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .engineSecond h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .engineSecond li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .transCont{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .trans-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .trans-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .trans-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .transMain {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .transImg {
+            width: 70%;
+            height: 50%;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .transImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .transText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .transText h1 {
+            font-size: 28px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .transText p {
+            font-size: 20px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .transSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .transSecond h2 {
+            font-size: 28px;
+            text-align: center;
+            color: #8a0000;
+            width: 90%;
+        }
+
+        .transSecond li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .transSecond p {
+            font-size: 20px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .fleetCont{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fleet-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fleet-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fleet-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .fleetMain {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .fleetImg {
+            width: 70%;
+            height: 50%;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .fleetImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .fleetText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .fleet-info h1 {
+            font-size: 28px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .fleetText p {
+            font-size: 20px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .oilCont{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .oil-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .oil-body{
+            width: 100%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .oil-info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .oilMain {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .oilImg {
+            width: 70%;
+            height: 50%;
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .oilImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .oilText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .oilText h1 {
+            font-size: 28px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .oilText p {
+            font-size: 20px;
+            text-align: center;
+            width: 90%;
+            margin-top: 20px;
+        }
+
+        .oilSecond {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .oilSecond h2 {
+            font-size: 20px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .oilText li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            width: 95%;
+        }
+
+        .oilSecond p {
+            font-size: 18px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .tire{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tire-content {
+            width: 100%;
+            min-height: 100%;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tire-banner{
+            width: 90%;
+            height: 100%;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-content{
+            height: 100%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-content h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .banner-content p {
+            font-size: 18px;
+            text-align: center;
+            width: 80%;
+        }
+
+        .tire-desc{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .tire-desc h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .descCont {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .tireImg {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .tireImg img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .tireText {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .tireText p {
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .tireImgTwo {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .tireImgTwo img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .tireInfo {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .tireInfo h1 {
+            font-size: 22px;
+            text-align: center;
+            color: #8a0000;
+        }
+
+        .tireInfo p {
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .tireServices {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .tireRow {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .tireRow h2 {
+            font-size: 22px;
+            text-align: left;
+            color: #8a0000;
+            margin-left: 20px;
+        }
+
+        .tireRow li {
+            font-size: 18px;
+            text-align: left;
+            width: 100%;
+            margin-left: 215x;
+        }
+
+        .about {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-desc {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .about-desc h1 {
+            font-size: 25px;
+            text-align: center;
+            color: #8a0000;
+            width: 90%;
+        }
+
+        .aboutCont {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .aboutText {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .aboutText p {
+            font-size: 16px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .aboutImgTwo {
+            width: 80%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+            margin-bottom: 30px;
+        }
+
+        .contact {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-desc {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-desc h1 {
+            font-size: 23px;
+            text-align: center;
+            color: #8a0000;
+            width: 90%;
+        }
+
+        .contactCont {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .contactImg{
+            width: 80%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+            margin-bottom: 30px;
+        }
+
+        .contactText {
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contactText p {
+            font-size: 16px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .contactImgTwo {
+            width: 80%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+            margin-bottom: 30px;
+        }
+        
+}
